@@ -1,0 +1,193 @@
+body {
+    background:  #f4f2ec;
+    margin: 0;
+    font:12px "lucida grande", "lucida Sans Unicode",Arial , sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 25px 0;
+}
+.header-right,.header-left{
+    margin:30px 0;
+}
+.container {
+    width: 100%;
+    height:180px;
+    margin: 0 auto;
+    background:  url(../imagem/fundo.png);
+    margin: 0;
+    
+}
+
+.header-right a:link,a:active,a:visited {
+    color: #af670a;
+}
+
+.header-right a:hover{
+    color: #227115;
+}
+
+
+.header-right ul {
+    display: flex;
+}
+
+.header-right ul li {
+ list-style-type:none;
+}
+
+.header-right ul li a:link {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 25px;
+    padding-bottom: 2px;
+}
+
+.header-right a:hover{
+    border-bottom: 1px solid #535858;
+}
+
+
+
+
+.depoimento {
+    padding-right: 80px;
+}
+
+
+
+
+
+aside{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 5px;
+  /*  margin-right: 95px;*/
+    /* background: #ebe7dd; */
+}
+
+.capa{
+    padding-left: 90px;
+    padding-right: 15px;
+}
+
+fieldset{
+    margin-top: 10px;
+}
+
+section.visita {
+    width: 300px;
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+section .galeria {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #ebe7dd;
+}
+section .galeria a {
+    width: 97px ;
+    height: 97px;
+    margin-top: 35px;
+    padding:15px 15px 25px 20px;
+    background: url(../imagem/fundo-foto.png)no-repeat;
+    border: none;
+}
+
+section .galeria a {
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+h4 {
+    height: 12px;
+    color:#86521a;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+input {
+    width: 80px;
+    height: 20px;
+    background: #fff;
+    border:none;
+    font-size: 1em;
+}
+input.campo {
+    border: 1px solid #ada484;
+}
+input.botão {
+    background: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+fieldset{
+    border: none;
+
+}
+
+
+
+section .postagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: baseline;
+    
+}
+.história {
+    width: 325px;
+}
+
+section article.história,.exposições {
+    padding-top: 10px;
+}
+
+
+
+section article.história , .exposições {
+    padding-top: 10px;
+}
+
+section article h3 {
+    padding-left: 5px;
+}
+section article {
+    margin-bottom: 10px;
+}
+
+
+h3 {
+    color: #227115;
+    margin-bottom: 15px;
+    font-size: 1.0em;
+    text-transform: uppercase;
+}
+
+.flooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0 30px 0;
+}
+.conteudo {
+    text-align: center;
+}
+
+.conteudo>p a {
+    padding: 2px 10px;
+}
