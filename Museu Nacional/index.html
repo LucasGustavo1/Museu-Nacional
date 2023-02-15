@@ -1,181 +1,153 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Museu Nacional</title>
-            <link rel="stylesheet" type="text/css" href="css/normalize.css">
-            <link rel="stylesheet" type="text/css" href="css/styles.css">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Museu Nacional</title>
+   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
 
                 <!--[if lt IE 9]>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
                 <![endif]-->
-        </head>
-        <body>
-            <div class="container">
-                        <header>
-                            <div class="header-left">
-                                <img src="imagem/logo.png">
-                            </div>
+</head>
+<body>
+   <div class="container">
+    <header>
+      <div class="header-left">
+       <img src="imagem/logo.png">
+      </div>
+      <div class="header-right">
+       <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Exposições</a></li>
+        <li><a href="">Pesquisa</a></li>
+        <li> <a href="">Acervo</a></li>
+        <li><a href="">Vídeos</a></li>
+        <li><a href="">Fotos</a></li>
+        <li> <a href="">Contato</a></li>
+       </ul>
+       </div>
+     </header>
+     <aside>
+       <section class="depoimento">
+        <img src="imagem/depoimento.png">                                
+       <section class="visita">
+        <h4>Faça uma visita</h4>
+        <form>
+        <fieldset>                                        
+           <label for="data">Data</label>
+           <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+           <label for="Qtd">Qtd Pessoas </label>
+           <input class="campo"style="width: 30px;" type="text" id="Qtd" value="1">
+        </fieldset>
+           <input class="botão" type="submit" value="Verificar Disponibilidade">
+         </form>
+       </section>
+          <h4 style="padding-left: 26px; background: #ebe7dd;">Galeria de fotos</h4>
+          <section class="galeria">
+           <a href="">
+            <img src="imagem/imagem1.jpg" height="93" width="93">
+           </a>
+           <a href="">
+            <img src="imagem/imagem2.jpg" height="93" width="93">
+           </a>
+           <a href="">
+            <img src="imagem/imagem3.jpg" height="93" width="93">
+           </a>
+           <a href="">
+            <img src="imagem/imagem4.jpg" height="93" width="93">
+           </a>
+          </section>
+        </section>
 
-                            <div class="header-right">
-                                <ul>
-                                    
-                                    <li><a href="">Home</a></li>
-                                    <li><a href="">Exposições</a></li>
-                                    <li><a href="">Pesquisa</a></li>
-                                    <li> <a href="">Acervo</a></li>
-                                    <li><a href="">Vídeos</a></li>
-                                    <li><a href="">Fotos</a></li>
-                                    <li> <a href="">Contato</a></li>
-                                </ul>
-                            </div>
-                        </header>
-                    <aside>
+          <section class="capa">
+           <img src="imagem/museu.png">
+            <section class="postagens">
+              <article class="vídeo">
+              <h3>Vídeo : Conheça o Museu</h3>
+               <iframe width="340" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             </article>
+             <article class="mapa">
+              <h3> Mapa: Encontre o Museu</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117606.60196029137!2d-43.358364837500034!3d-22.90576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1676385795222!5m2!1spt-BR!2sbr" width="340" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </article>
+             <article  class="exposições">
+              <h3>Exposições</h3>
+               <ul>
+                <li>
+                 <a href="">
+                  Os assustadores insetos
+                 </a>
+                </li>
 
-                        <section class="depoimento">
-                                    <img src="imagem/depoimento.png">                                
-                                    <section class="visita">
-                                        <h4>Faça uma visita</h4>
-                                        <form>
-                                            <fieldset>                                        
-                                                <label for="data">Data</label>
-                                                <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+                <li>
+                 <a href="">
+                  O crânio de Luzia , a mulher mais antiga do Brasil 
+                 </a>
+                </li>
+                <li>
+                 <a href="">
+                  Preguiça gigante e tigre-dentes-de-sabre 
+                 </a>
+                </li>
 
-                                                <label for="Qtd">Qtd Pessoas </label>
-                                                <input class="campo"
-                                                style="width: 30px;" type="text" id="Qtd" value="1">
-                                            </fieldset>
-                                                <input class="botão" type="submit" value="Verificar Disponibilidade">
-                                        </form>
+                <li>
+                 <a href="">
+                  Plantas do Brasil Central 
+                 </a>
+                </li>
 
-                                    </section>
-                                        <h4 style="padding-left: 26px; background: #ebe7dd;">Galeria de fotos</h4>
-                                        <section class="galeria">
-                                                <a href="">
-                                                    <img src="imagem/imagem1.jpg" height="93" width="93">
-                                                </a>
-                                                <a href="">
-                                                    <img src="imagem/imagem2.jpg" height="93" width="93">
-                                                </a>
-                                                <a href="">
-                                                    <img src="imagem/imagem3.jpg" height="93" width="93">
-                                                </a>
-                                                <a href="">
-                                                    <img src="imagem/imagem4.jpg" height="93" width="93">
-                                                </a>
-                                        </section>
-                        </section>
+                <li>
+                 <a href="">
+                  Teresa Cristina:A Imperatriz Arqueóloga 
+                 </a>
+                </li>
+                <li>
+                 <a href="">
+                  Arte com Dinossauros - Paleoarte 
+                 </a>
+                </li>
+                <li>
+                 <a href="#"><strong>Veja todos (65)</strong></a>
+                </li>
 
-                        <section class="capa">
-                                <img src="imagem/museu.png">
-                            <section class="postagens">
-                                    <article class="vídeo">
-                                        <h3>Vídeo : Conheça o Museu</h3>
-
-                                        <iframe width="340" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                                    </article>
-                                    
-                                    <article class="mapa">
-                                        <h3> Mapa: Encontre o Museu</h3>
-
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117606.60196029137!2d-43.358364837500034!3d-22.90576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1676385795222!5m2!1spt-BR!2sbr" width="340" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                                    </article>
-
-                                    <article  class="exposições">
-
-                                        <h3>Exposições</h3>
-                                        <ul>
-                                            <li>
-                                                <a href="">
-                                                    Os assustadores insetos
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="">
-                                                    O crânio de Luzia , a mulher mais antiga do Brasil 
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="">
-                                                    Preguiça gigante e tigre-dentes-de-sabre 
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="">
-                                                    Plantas do Brasil Central 
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="">
-                                                    Teresa Cristina:A Imperatriz Arqueóloga 
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    Arte com Dinossauros - Paleoarte 
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><strong>Veja todos (65)</strong></a>
-                                            </li>
-
-                                        </ul>
-                                    </article>
-                                    <article style="padding-left: 10px;" class="história">
-
-                                        <h3>200 anos de história</h3>
-                                        <p style="width: 250;">
-                                            Numa ponta que avançava sobre o mar , posteriormente<br>
-                                            conhecida como Ponta do Calabouço , entre as <br>
-                                            praias de Piaçaba e Santa Luzia,no centro histórico<br>
-                                            do Rio de Janeiro , os portugueses construíram<br>
-                                             em 103 a Fortaleza de Santiago,origem do conjunto<br> 
-                                             arquitetônico que hoje abriga o Museu Histórico Nacional . 
-                                        </p>
-                                        <a href=""><strong>Leia mais</strong></a>
+               </ul>
+             </article>
+             <article style="padding-left: 10px;" class="história">
+              <h3>200 anos de história</h3>
+               <p style="width: 250;">
+               Numa ponta que avançava sobre o mar , posteriormente<br>
+               conhecida como Ponta do Calabouço , entre as <br>
+               praias de Piaçaba e Santa Luzia,no centro histórico<br>
+               do Rio de Janeiro , os portugueses construíram<br>
+               em 103 a Fortaleza de Santiago,origem do conjunto<br> 
+               arquitetônico que hoje abriga o Museu Histórico Nacional . 
+               </p>
+                 <a href=""><strong>Leia mais</strong></a>
 
                                         
-                            </section>
-
-                            
-                        </section>
-
-                         
-
-                    </aside>
-                    <div class="flooter">
-                        <img src="imagem/fundo-rodape.png">
-                        
-                    </div>
-                    <div class="conteudo">
-                        <p>
-                            <a href="">Home</a>
-                            <a href="">Exposições</a>
-                            <a href="">Pesquisa</a>
-                            <a href="">Acervo</a>
-                            <a href="">Vídeos</a>
-                            <a href="">Fotos</a>
-                            <a href="">Contato</a>
-                            
-
-                        </p>
-                        <p>2019 <a href="">Museu Nacional</a> - Todos os direitos reservados</p>
+          </section>
+         </section>
+        </aside>
+          <div class="flooter">
+           <img src="imagem/fundo-rodape.png">
+          </div>
+          <div class="conteudo">
+           <p>
+            <a href="">Home</a>
+            <a href="">Exposições</a>
+            <a href="">Pesquisa</a>
+            <a href="">Acervo</a>
+            <a href="">Vídeos</a>
+            <a href="">Fotos</a>
+            <a href="">Contato</a>
+           </p>
+           <p>2019 <a href="">Museu Nacional</a> - Todos os direitos reservados</p>
 
 
-                    </div>
-                    
-
-            </div>
-
-            
-            
-        </body>
+       </div>                
+   </div>            
+</body>
 </html>
